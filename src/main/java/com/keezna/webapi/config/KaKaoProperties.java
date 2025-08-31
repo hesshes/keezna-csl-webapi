@@ -9,8 +9,6 @@ import lombok.Setter;
 @Setter
 @ConfigurationProperties(prefix = "kakao")
 public class KaKaoProperties {
-
 	private String restApiKey;
 	private String redirectUri;
-
 }

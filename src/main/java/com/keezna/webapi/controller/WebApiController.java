@@ -10,8 +10,7 @@ import lombok.extern.slf4j.Slf4j;
 public class WebApiController {
 
 	@RequestMapping("/image/convert")
-	public void test() {
+	public void imageConvert() {
 		log.info("request");
 	}
-
 }

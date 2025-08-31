@@ -6,7 +6,7 @@ spring:
     - optional:classpath:application-secret.yaml
 
 server:
-  port: 9090 
+  port: 19090 
   tomcat:
     accesslog:
       enabled: true
